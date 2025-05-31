@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+*.log
+*.zip
+
+# System
+.DS_Store
+*.swp
+
+# Sensitive/Env
+.env
+
