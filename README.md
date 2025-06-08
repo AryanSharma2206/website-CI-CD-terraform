@@ -85,5 +85,5 @@ Or use a provisioner in `main.tf` to automate this.
 **Aryan Sharma**  
 B.Tech CSE (AI & DS) | Poornima University  
 GitHub: [@AryanSharma2206](https://github.com/AryanSharma2206)  
-LinkedIn: [linkedin.com/in/aryan-sharma2206](https://www.linkedin.com/in/aryan-sharma2206)  
+LinkedIn: [linkedin.com/in/aryan-sharma2206](https://www.linkedin.com/in/aryan-sharma-a2a240353/)  
 Location: Jaipur, India
