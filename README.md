@@ -17,7 +17,7 @@ This repository demonstrates a complete CI/CD workflow for deploying a website t
 
 The architecture is designed for automation. A local Ubuntu machine, acting as the control node, runs **Terraform** to provision an **AWS EC2 instance**. This instance is configured with a web server and a security group to allow public access. Once the infrastructure is live, the website content is securely copied from the local machine to the EC2 instance, making the site publicly available.
 
-![AWS Architecture Diagram](AWS-Artichiture-Digram.png.png)
+![AWS Architecture Diagram](teraform-website-images/AWS-Artichiture-Digram.png.png)
 
 ---
 ## ✨ Project Showcase & Visual Guide
@@ -27,32 +27,32 @@ This visual walkthrough highlights the key stages of the project, from writing t
 ### **1. The Terraform Code**
 The heart of the project is the `main.tf` file, which declaratively defines all the necessary AWS resources, including the EC2 instance, security groups, and SSH key pairs.
 
-![Terraform main.tf file](final%20code.PNG)
+![Terraform main.tf file](teraform-website-images/final%20code.PNG)
 
 ### **2. Initializing Terraform**
 The `terraform init` command prepares the working directory, downloading the necessary AWS provider plugins.
 
-![Terraform Init](Project-image-1.PNG)
+![Terraform Init](teraform-website-images/Project-image-1.PNG)
 
 ### **3. Planning the Infrastructure**
 `terraform plan` creates an execution plan, showing a preview of the resources that will be created on AWS. This is a crucial step for verification.
 
-![Terraform Plan](Project-image-2.PNG)
+![Terraform Plan](teraform-website-images/Project-image-2.PNG)
 
 ### **4. Applying the Configuration**
 `terraform apply` executes the plan, building the entire infrastructure on AWS as defined in the code.
 
-![Terraform Apply](Project-image-3.PNG)
+![Terraform Apply](teraform-website-images/Project-image-3.PNG)
 
 ### **5. Verifying in AWS Console**
 After a successful apply, the newly created EC2 instance is visible and running in the AWS Management Console.
 
-![EC2 in AWS Console](Project-image-4.PNG)
+![EC2 in AWS Console](teraform-website-images/Project-image-4.PNG)
 
 ### **6. The Final Deployed Website**
 The final step is accessing the public IP of the EC2 instance, which serves the deployed website.
 
-![Final Deployed Website](Project-image-5.PNG)
+![Final Deployed Website](teraform-website-images/Project-image-5.PNG)
 
 ---
 ## 📋 How to Replicate This Setup
